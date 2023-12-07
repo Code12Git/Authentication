@@ -1,5 +1,8 @@
 # User Registration and Password Reset Functionality (MERN Stack)
 
+![Screenshot from 2023-12-08 01-19-36](https://github.com/Code12Git/Authentication/assets/108590542/ea191d74-5186-4179-bd61-dfa02438e33f)
+
+
 ## Overview
 
 This full-stack web application allows users to register, reset their passwords, and perform various operations related to user management. The application involves implementing user registration, login, forgot password, and password reset functionality using the MERN (MongoDB, Express.js, React, Node.js) stack.
@@ -106,7 +109,7 @@ The following API endpoints are available:
 - POST /api/auth/register: Register User
 - POST /api/auth/login: Login User.
 - POST /api/auth/forgotpassword: Forgot Password.
-- POST /reset-password/:token/:id: Reset Password by token and userId.
+- POST /api/auth/reset-password/:token/:id: Reset Password by token and userId.
 
 ### Accessing Sample Quotes
 
